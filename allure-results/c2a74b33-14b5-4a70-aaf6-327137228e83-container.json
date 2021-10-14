@@ -1,0 +1,1 @@
+{"uuid":"c2a74b33-14b5-4a70-aaf6-327137228e83","name":"LoginTest","children":["5b77d684-b430-4787-8516-03e452c4b78c"],"befores":[{"name":"registerDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1634223497608,"stop":1634223497618}],"afters":[],"start":1634223497607,"stop":1634223497668}
