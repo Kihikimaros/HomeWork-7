@@ -32,7 +32,7 @@ public class BaseTest {
     @AfterEach
     void tearDown() {
         LogEntries consoleLogs = webDriver.manage().logs().get(LogType.BROWSER);
-        for (LogEntry log: consoleLogs) {
+        for (LogEntry log : consoleLogs) {
             System.out.println(log.getMessage());
             Allure.step("Элемент консоли браузера " + log.getMessage());
         }
